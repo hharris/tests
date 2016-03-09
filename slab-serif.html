@@ -9,11 +9,16 @@
         <style type="text/css">
             body {
                 background-color: #fff;
+                text-transform: initial;
             }
             
             div {
                 margin-bottom: 100px;
                 padding: 50px 100px;
+            }
+            
+            .uppercase-all {
+                text-transform: uppercase;
             }
             
             #roboto {
@@ -46,6 +51,7 @@
                 border: 1px solid #0064b1;
                 background-color: #fff;
                 color: #0064b1;
+                text-transform: initial;
             }
             
             .on {
@@ -116,6 +122,7 @@
         <script>
             $(".uppercase-toggle").click(function() {
                 $(this).toggleClass("on");
+                $("div").toggleClass("uppercase-all");
             });
         </script>
     </body>
