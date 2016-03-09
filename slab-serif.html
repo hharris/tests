@@ -15,10 +15,6 @@
                 padding: 50px 100px;
             }
             
-            h5 {
-                text-transform: uppercase;
-            }
-            
             #roboto {
               font-family: 'Roboto Slab';
             }
@@ -43,10 +39,27 @@
               font-family: 'Rokkitt';
             }
             
+            .uppercase-toggle .on {
+                text-transform: uppercase;
+                border-color: 1px solid #00064b1;
+                background-color: #00064b1;
+            }
+            
+            .uppercase-toggle .off {
+                text-transform: initial;
+                border-color: 1px solid #00064b1;
+                background-color: #fff;
+            }
+            
+            .uppercase {
+                padding: 10px 20px;
+            }
+            
         </style>
     </head>
     
     <body>
+        <div class="uppercase-toggle off">Uppercase</div>
         <div id="roboto">
           <h1>Roboto Slab-The quick brown fox jumps over the lazy dog</h1>
           <h2>Roboto Slab-The quick brown fox jumps over the lazy dog</h2>
