@@ -14,6 +14,9 @@
               font-family: 'Roboto-Slab';
             }
             
+            #rockwell {
+              font-family: rockwell;
+            }
             
         </style>
     </head>
@@ -26,6 +29,14 @@
           <h4>Roboto Slab-The quick brown fox jumps over the lazy dog</h4>
           <h5>Roboto Slab-The quick brown fox jumps over the lazy dog</h5>
           <p>Roboto Slab-The quick brown fox jumps over the lazy dog</p>
+        </div>
+        <div id="rockwell">
+          <h1>Rockwell-The quick brown fox jumps over the lazy dog</h1>
+          <h2>Rockwell-The quick brown fox jumps over the lazy dog</h2>
+          <h3>Rockwell-The quick brown fox jumps over the lazy dog</h3>
+          <h4>Rockwell-The quick brown fox jumps over the lazy dog</h4>
+          <h5>Rockwell-The quick brown fox jumps over the lazy dog</h5>
+          <p>Rockwell-The quick brown fox jumps over the lazy dog</p>
         </div>
     </body>
 </html>
